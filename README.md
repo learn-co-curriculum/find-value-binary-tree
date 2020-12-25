@@ -16,7 +16,7 @@ Input: root node, target = 5
 Output: null or nil
 ```
 
-What is the time complexity of your solution?
+What is the time complexity of your solution? How does the complexity differ for a balanced tree versus an unbalanced tree?
 
 Use the language of your choosing. We've included starter files for some languages where you can pseudocode, explain your solution and code.
 
