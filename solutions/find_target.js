@@ -66,4 +66,26 @@ if (require.main === module) {
 module.exports = { findTarget, Node };
 
 // Please add your pseudocode to this file
+/****************************************************************************
+ * return null or nil if root is falsy
+ * 
+ * return node if node value == target value
+ * 
+ * if node value > target:
+ *  return result of recursing with node.left
+ * else:
+ *  return result of recursing with node.right
+ * *************************************************************************/
+
 // And a written explanation of your solution
+/****************************************************************************
+ * This is very similar to using a binary search on a sorted array. First we
+ * check if the root is a node. If it isn't we just return null or nil. If it
+ * is a node and its value is the same as the target, we return the node. If
+ * the value is higher than target, we recursively traverse the left side of 
+ * the tree. Otherwise we traverse the right side if the value is less than
+ * the target.
+ * **************************************************************************/
+
+ // Time complexity for a balanced tree is O (log n), since we are dividing the input on each recursion
+ // For an unbalanced tree, it's O(n), since we must visit all nodes in the worst case

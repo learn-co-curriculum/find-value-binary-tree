@@ -15,12 +15,12 @@ end
 if __FILE__ == $PROGRAM_NAME
   root = Node.new(1, Node.new(-1), Node.new(2))
   puts "Expecting: Node with value 2"
-  puts find_target(root, 2)
+  puts find_target(root, 2).inspect
 
   puts
 
   puts "Expecting: nil"
-  puts find_target(root, 5)
+  puts find_target(root, 5).inspect
 
   # Don't forget to add your own!
 end
