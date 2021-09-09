@@ -1,10 +1,16 @@
 # Day 5: Find a Target Value in a Binary Search Tree
 
-**Fork and then clone me!**
+## Learning Goals
 
-Given a binary search tree (BST), find the node with the target value and return the node. If the node does not exist in the tree return a falsy value, such as `null` or `nil`.
+- Implement the binary search algorithm on a binary search tree
 
-```
+## Introduction
+
+Given a binary search tree (BST), find the node with the target value and return
+the node. If the node does not exist in the tree return a falsy value, such as
+`null` or `nil`.
+
+```txt
    1
   / \
 -1   2
@@ -16,11 +22,13 @@ Input: root node, target = 5
 Output: null or nil
 ```
 
-What is the time complexity of your solution? How does the complexity differ for a balanced tree versus an unbalanced tree?
+What is the time complexity of your solution? How does the complexity differ for
+a balanced tree versus an unbalanced tree?
 
-Use the language of your choosing. We've included starter files for some languages where you can pseudocode, explain your solution and code.
+Use the language of your choosing. We've included starter files for some
+languages where you can pseudocode, explain your solution and code.
 
-## Before you start coding:
+## Before you start coding
 
 1. Rewrite the problem in your own words
 2. Validate that you understand the problem
